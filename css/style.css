@@ -12,6 +12,11 @@ body{
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
+img{
+    display: block;
+    width: 100%;
+}
+
 h1{
     font-family:'Nerko One', cursive;
     color: #FF9614;
@@ -157,4 +162,10 @@ iframe{
     background-color: white;
     box-shadow: 2px 2px lightgrey;
     border-radius: 20px;
+}
+
+/* banner pubblicitario */
+
+.adv{
+    display: none;
 }
