@@ -10,6 +10,7 @@
 
 body{
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    background-color: #F6F5F3;
 }
 
 img{
@@ -43,6 +44,7 @@ ul{
 header{
     height: 80px;
     text-align: center;
+    background-color: white;
 }
 
 /* MAIN */
@@ -200,4 +202,11 @@ figure img{
 .presentation p{
     line-height: 40px;
     font-size: 20px;
+}
+
+/* Footer */
+
+footer{
+    height: 80px;
+    background-color: #7C69A4;
 }

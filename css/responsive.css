@@ -55,6 +55,11 @@
         padding-top: 0;
     }
 
+    main{
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+
     .name-product{
         font-size: 40px;
     }
