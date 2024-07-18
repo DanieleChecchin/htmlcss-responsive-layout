@@ -107,13 +107,13 @@ iframe{
 
 .general-instruction{
     background-color: #F6F5F3;
-    padding: 20px;
+    padding: 20px 0;
     margin-bottom: 30px;
 }
 
 .general-info{
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 .type-food{
@@ -173,4 +173,30 @@ iframe{
 
 .adv{
     display: none;
+}
+
+/* sezione presentation */
+
+.presentation{
+    margin-top: 60px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: normal;
+}
+
+figure{
+    text-align: center;
+    margin-top: 50px;
+}
+
+figure img{
+    display: inline-block;
+    width: 60%;
+}
+
+.presentation p{
+    line-height: 40px;
+    font-size: 20px;
 }
