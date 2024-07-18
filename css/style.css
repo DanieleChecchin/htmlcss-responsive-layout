@@ -1,0 +1,35 @@
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+body{
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-family:'Nerko One', cursive;
+    color: #FF9614;
+    font-weight: 900;
+    padding-top: 15px;
+}
+
+/* Utils */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    height: 80px;
+    border: 1px dashed black;
+    text-align: center;
+}
