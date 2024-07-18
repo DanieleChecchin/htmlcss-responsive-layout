@@ -14,6 +14,10 @@
         padding: 40px;
     }
 
+    .name-product{
+        font-size: 35px;
+    }
+
     .name-product span{
         display: inline-block;
     }
@@ -45,4 +49,34 @@
         font-size: 50px;
         padding-top: 0;
     }
+
+    .name-product{
+        font-size: 40px;
+    }
+
+    .mode-instruction ul{
+        display: block;
+    }
+
+    .main-instruction{
+        flex-direction: row;
+    }
+
+    .col-video{
+        flex-basis: 60%;
+    }
+
+    .col-instruction{
+        flex-basis: 40%;
+    }
+
+    .icons a{
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+
+    .icons span{
+        display: inline-block;
+    }
+
 }
