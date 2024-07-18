@@ -40,6 +40,11 @@
         display: block;
     }
 
+    figure img{
+        float: left;
+        margin-right: 10px;
+    }
+
 }
 
 /* Desktop 992px */
