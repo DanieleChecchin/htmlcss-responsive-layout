@@ -232,5 +232,5 @@ footer{
 
 .navbar-list li{
     text-decoration: underline;
-    flex-basis: 25%;
+    flex-basis: calc(100% / 5 - 40px / 5);
 }

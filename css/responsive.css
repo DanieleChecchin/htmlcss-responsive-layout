@@ -89,4 +89,13 @@
         display: inline-block;
     }
 
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .address{
+        text-align: left;
+    }
+
 }
