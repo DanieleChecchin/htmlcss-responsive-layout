@@ -9,6 +9,33 @@
     h1{
         font-size: 40px;
     }
+
+    main{
+        padding: 40px;
+    }
+
+    .name-product span{
+        display: inline-block;
+    }
+
+    .mode-instruction ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .mode-instruction li{
+        flex-basis: calc(100% / 3 - 20px / 3);
+    }
+
+    .icons a{
+        padding: 15px 50px;
+    }
+
+    .adv{
+        display: block;
+    }
+
 }
 
 /* Desktop 992px */
