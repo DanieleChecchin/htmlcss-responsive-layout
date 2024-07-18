@@ -19,11 +19,17 @@ h1{
     padding-top: 15px;
 }
 
+h4{
+    color: #9999B0;
+}
+
+i{
+    color: #FF9614;
+}
 /* Utils */
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+.flex{
+    display: flex;
 }
 
 /* HEADER */
@@ -33,3 +39,34 @@ header{
     border: 1px dashed black;
     text-align: center;
 }
+
+/* MAIN */
+
+main{
+    background-color: #F6F5F3;
+    padding: 30px;
+}
+
+/* main product */
+
+.main-product{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.name-product{
+    color: #4E3969;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.rate{
+    background-color: #FF9614;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    border: 0;
+    font-weight: bolder;
+}
+

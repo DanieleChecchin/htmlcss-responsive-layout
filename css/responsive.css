@@ -1,4 +1,7 @@
-@media screen and (min-width: 768px) {
+
+/* Tablet 768px */
+
+@media screen and (min-width: 768px){
     header{
         text-align: start;
     }
@@ -7,6 +10,8 @@
         font-size: 40px;
     }
 }
+
+/* Desktop 992px */
 
 @media screen and (min-width: 992px){
     h1{
