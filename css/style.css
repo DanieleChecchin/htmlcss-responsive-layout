@@ -25,7 +25,13 @@ h4{
 
 i{
     color: #FF9614;
+    margin-right: 10px;
 }
+
+ul{
+    list-style-type: none;
+}
+
 /* Utils */
 
 .flex{
@@ -36,7 +42,6 @@ i{
 
 header{
     height: 80px;
-    border: 1px dashed black;
     text-align: center;
 }
 
@@ -61,6 +66,7 @@ main{
     font-weight: 900;
 }
 
+
 .rate{
     background-color: #FF9614;
     padding: 10px 15px;
@@ -70,3 +76,85 @@ main{
     font-weight: bolder;
 }
 
+/* mai instruction */
+
+.main-instruction{
+    flex-direction: column;
+}
+
+.col{
+    flex-basis: 100%;
+}
+
+.col-video{
+    flex-basis: 50%;
+    padding-top: 30px;
+}
+
+iframe{
+    width: 100%;
+}
+
+.col-instruction{
+    flex-basis: 50%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px lightgrey;
+}
+
+.general-instruction{
+    background-color: #F6F5F3;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.general-info{
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.type-food{
+    padding-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+.kcal{
+    background-color: #7B69A2;
+    color: white;
+    
+    border-radius: 7px;
+    padding: 5px 8px;
+}
+
+.info{
+    color: #FF9614;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.fa-carrot{
+    color: black;
+    margin-right: 10px;
+}
+
+.mode-instruction i{
+    color: #FF9614;
+}
+
+.mode-instruction li{
+    padding: 5px 0;
+}
+
+/* barra social network */
+
+.icons{
+    margin: 30px 0;
+    justify-content: space-around;
+}
+
+.icons a{
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 2px 2px lightgrey;
+    border-radius: 20px;
+}
